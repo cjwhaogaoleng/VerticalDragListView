@@ -12,7 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.core.widget.ListViewCompat;
 import androidx.customview.widget.ViewDragHelper;
 
-public class VerticalDragListViewJ extends FrameLayout {
+public class VerticalDragListView extends FrameLayout {
 
     private ViewDragHelper mDragHelper;
     private View mDragListView;
@@ -20,15 +20,15 @@ public class VerticalDragListViewJ extends FrameLayout {
     private int mMenuHeight;
     private boolean mMenuIsOpen = false;
 
-    public VerticalDragListViewJ(@NonNull Context context) {
+    public VerticalDragListView(@NonNull Context context) {
         this(context,null);
     }
 
-    public VerticalDragListViewJ(@NonNull Context context, @Nullable AttributeSet attrs) {
+    public VerticalDragListView(@NonNull Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public VerticalDragListViewJ(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public VerticalDragListView(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         mDragHelper = ViewDragHelper.create(this, mDragHelperCallback);
     }
