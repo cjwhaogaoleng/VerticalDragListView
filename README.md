@@ -5,7 +5,7 @@ https://github.com/cjwhaogaoleng/TextColorChangeView/assets/117556474/7f792e20-3
  ## 源码位置
 /app/src/main/java/com/example/textcolorchange/VerticalDragListView.java
  ## 代码讲解
-  ### JAVA
+  ### 使用
   #### xml布局
 ```
 <com.example.verticaldraglistview.VerticalDragListView xmlns:android="http://schemas.android.com/apk/res/android"
@@ -31,17 +31,12 @@ https://github.com/cjwhaogaoleng/TextColorChangeView/assets/117556474/7f792e20-3
 
 </com.example.verticaldraglistview.VerticalDragListView>
 ```
-  
- ## 实现方法
- ```
-
-```
+ 
  ## 待完成
  - [x] 自定义view
    - [x] onMeasure 源码和写法基本了解
    - [x] onDraw 源码和写法基本了解
-   - [ ] onTouch 触碰分发事件正在学习
+   - [x] onTouch 触碰分发事件正在学习
  - [ ] compose 已经接触，还没有另一种熟练
  - [ ] :disappointed: :blush:
- ## 另一份自定义view
- https://github.com/cjwhaogaoleng/QQStepView.git
+
