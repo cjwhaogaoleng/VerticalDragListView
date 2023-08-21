@@ -1,4 +1,5 @@
 # VerticalDragListView
+可以下拉的viewGroup
 ## 效果展示
 https://github.com/cjwhaogaoleng/TextColorChangeView/assets/117556474/7f792e20-3ab4-466d-b2f8-c1711dc01c06
 
@@ -7,6 +8,7 @@ https://github.com/cjwhaogaoleng/TextColorChangeView/assets/117556474/7f792e20-3
  ## 代码讲解
   ### 使用
   #### xml布局
+  //只支持两个，一上一下两个view
 ```
 <com.example.verticaldraglistview.VerticalDragListView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -22,6 +24,7 @@ https://github.com/cjwhaogaoleng/TextColorChangeView/assets/117556474/7f792e20-3
         android:gravity="center"
         android:text="后面" />
 
+//这个位置用列表（recycleView或者ListView
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv"
         android:layout_width="match_parent"
