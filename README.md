@@ -3,7 +3,7 @@
 可以下拉的viewGroup
 ## 效果展示
 
-Uploading Rec 0002.mp4…
+https://github.com/cjwhaogaoleng/VerticalDragListView/assets/117556474/75eee398-1dd2-43aa-965e-b28e83e8b70e
 
  ## 源码位置
 /app/src/main/java/com/example/verticaldraglistview/VerticalDragListView.java
