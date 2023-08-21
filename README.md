@@ -1,10 +1,12 @@
 # VerticalDragListView
+
 可以下拉的viewGroup
 ## 效果展示
-https://github.com/cjwhaogaoleng/TextColorChangeView/assets/117556474/7f792e20-3ab4-466d-b2f8-c1711dc01c06
+
+Uploading Rec 0002.mp4…
 
  ## 源码位置
-/app/src/main/java/com/example/textcolorchange/VerticalDragListView.java
+/app/src/main/java/com/example/verticaldraglistview/VerticalDragListView.java
  ## 代码讲解
   ### 使用
   #### xml布局
